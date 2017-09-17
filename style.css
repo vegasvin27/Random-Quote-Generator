@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/7c/df/cf/7cdfcfc19725e7b027f48aa1c118b607.jpg);
+}
+
+body, h1, p {
+    font-family: customFont;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 15%;
+}
+
+@font-face {
+    font-family: customFont;
+    src: url('fonts/KaushanScript-Regular.otf');
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* .quoteBox {
+    background: white;
+    width: 80vw;
+    height: 25vw;
+    padding-left: 10px;
+    position: absolute;
+    border-radius: 25px;
+    margin: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+} */
+
+.button1 {
+    /*display:inline-block; change this from inline-block
+    width:20%; setting the width
+    margin:20px; this will center  it
+    position:absolute;
+    font-style:normal;
+    font-weight:normal;
+    font-family:"Open Sans";
+    font-size:13px;
+    outline:none;
+    color:#fff;
+    border:none;
+    text-decoration:none;
+    text-align:center;
+    border-bottom:1px solid #7b8b2f;*/
+    /*cursor:pointer;*/
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:15px;
+    /*background-color:#96aa39;*/
+}
+
+.button2 {
+    /*  display:block; change this from inline-block
+        width:20%; setting the width
+        margin:20px; this will center  it
+        position:absolute;
+        font-style:normal;
+        font-weight:normal;
+        font-family:"Open Sans";
+        font-size:13px;
+        outline:none;
+        color:#fff;
+        border:none;
+        text-decoration:none;
+        text-align:center;
+        cursor:pointer; */
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:15px;
+    /*background-color:#96aa39;
+    border-bottom:1px solid #7b8b2f; */
+}
